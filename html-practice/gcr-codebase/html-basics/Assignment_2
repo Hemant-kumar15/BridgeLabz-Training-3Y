@@ -1,1 +1,81 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sencondwebpage</title>
+</head>
+<body>
+    <header>
+        <h1>Hemant kumar</h1>
+        <p>Professional web developer and fullstack engineer.</p>
+    </header>
+    <nav>
+        <a href="#">home</a>
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Projects</a>
+        <a href="#">Education</a>
+        <a href="#">Contact</a>
+    </nav>
+    <article>
+        <section accesskey="abm">
+            <h2>About me</h2>
+            <img src="profile.jpeg" alt="hemant_kumar">
+            <p>I am a Hemant kumar, passionate web developer with expertise in both frontend and backend technologies. I specialize in creating responsive and user-friendly websites and applications.</p>
+            <p>With a strong foundation in HTML, CSS, JavaScript, and various frameworks, I strive to deliver high-quality solutions that meet client requirements. I am constantly learning and staying up-to-date with the latest industry trends to ensure my work remains innovative and efficient.</p>
+        </section>
+        section accesskey="skl">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>React.js, Node.js, Express.js</li>
+                <li>Database Management (MySQL, MongoDB)</li>
+                <li>Version Control (Git, GitHub)</li>
+                <li>Responsive Web Design</li>
+            </ul>
+        </section>
+        <section accesskey="prj">
+            <h2>My Projects</h2>
+            <h3>Here are some of the projects I have worked on:</h3>
+            <h4>Portfolio Website</h4>
+            <p>A personal portfolio showcasing my projects and skills.</p>
+            <a href="https://the-simplefolio.netlify.app/">View Project</a>
+            <h4>E-commerce Platform</h4>
+            <p>Developed a full-featured online store with payment integration.</p>
+            <a href="https://hemant-ecommerce.netlify.app/">View Project</a>
+            <h4>Blog Application</h4>
+            <p>Created a blogging platform with user authentication and content management.</p>
+            <a href="https://hemant-blog.netlify.app/">View Project</a>
+        </section>  
+        <section accesskey="edu">
+            <h2>Education</h2>
+            <p>Bachelor of Technology in Computer Science and Engineering</p>
+            <p>GLA University, 2024 - 2028</p>
+        </section>
+        <section accesskey="exp">
+            <h2>Experience</h2>
+            <p>Web Developer</p>
+            <p>ABC Company, 2027 - 2029</p>
+        </section>
+        <section class="quick-links" accesskey="ql">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="">LinkedIn</a></li>
+                <li><a href="https://github.com/Hemant-kumar15/BridgeLabz-Training-3Y">GitHub</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </section>
+    </article>
+    <footer>
+        <section>
+            <h2>Contact Information</h2>
+            <p>Email: hemantkumar@example.com</p>
+            <p>Phone: +91 9837336895</p>
+        </section>
+        <p>&copy; 2024 Hemant Kumar. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
