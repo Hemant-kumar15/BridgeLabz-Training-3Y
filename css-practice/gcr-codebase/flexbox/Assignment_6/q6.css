@@ -1,0 +1,6 @@
+/* Blog layout using grid-template-areas */
+body{margin:0;font-family:Arial,sans-serif;background:#f8fafc}.page{min-height:100vh;display:grid;grid-template-columns:220px 1fr;grid-template-rows:auto 1fr auto;grid-template-areas:"header header" "sidebar main" "footer footer"}
+header{grid-area:header;padding:20px;background:#1e293b;color:white;display:flex;justify-content:space-between;align-items:center}header a{color:white;text-decoration:none;margin-left:20px}
+aside{grid-area:sidebar;padding:25px;background:#e2e8f0}main{grid-area:main;display:grid;grid-template-columns:1fr 1fr;gap:25px;padding:30px}
+article{padding:25px;background:white;border-radius:10px;box-shadow:0 4px 10px #ccc}footer{grid-area:footer;padding:20px;text-align:center;background:#1e293b;color:white}
+@media(max-width:800px){.page{grid-template-columns:1fr;grid-template-areas:"header" "main" "sidebar" "footer"}header{flex-direction:column;gap:15px}main{grid-template-columns:1fr}}

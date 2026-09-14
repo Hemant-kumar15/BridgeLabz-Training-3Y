@@ -1,0 +1,8 @@
+/* Portfolio layout using Flexbox */
+body{margin:0;font-family:Arial,sans-serif;background:#f3f4f6;color:#222}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 50px;background:#1e293b;color:white}
+nav{display:flex;gap:20px}nav a{color:white;text-decoration:none}
+main{min-height:70vh;display:flex;justify-content:center;align-items:center;gap:50px;padding:30px}
+.about,.photo{width:40%}.photo img{width:100%;border-radius:10px}
+footer{text-align:center;padding:20px;background:#1e293b;color:white}
+@media(max-width:700px){header,main{flex-direction:column}header{gap:15px}.about,.photo{width:90%}}

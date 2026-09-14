@@ -1,0 +1,4 @@
+/* Simple loading animation */
+body{margin:0;min-height:100vh;display:flex;justify-content:center;align-items:center;font-family:Arial,sans-serif;background:#f1f5f9;text-align:center}
+.loader{display:flex;justify-content:center;align-items:center;gap:10px}.loader div{width:18px;height:18px;border-radius:50%;background:#2563eb;animation:loading .8s ease-in-out infinite}.loader div:nth-child(2){animation-delay:.15s}.loader div:nth-child(3){animation-delay:.3s}
+@keyframes loading{0%,100%{transform:translateY(0)}50%{transform:translateY(-18px)}}
