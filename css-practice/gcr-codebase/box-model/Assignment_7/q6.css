@@ -1,0 +1,59 @@
+/* Transformation examples */
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    width: 90%;
+}
+
+.transform-area {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.item {
+    width: 130px;
+}
+
+.box {
+    height: 100px;
+    background-color: #2563eb;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: all 0.4s ease;
+}
+
+.rotate:hover {
+    transform: rotate(15deg);
+}
+
+.scale:hover {
+    transform: scale(1.2);
+}
+
+.translate:hover {
+    transform: translateY(-20px);
+}
+
+.skew:hover {
+    transform: skew(10deg);
+}
+
+@media (max-width: 750px) {
+    .transform-area {
+        flex-wrap: wrap;
+    }
+}

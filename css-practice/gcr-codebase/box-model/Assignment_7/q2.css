@@ -1,0 +1,58 @@
+/* Different height and width units */
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #eef2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    width: 90%;
+}
+
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.box {
+    padding: 20px;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.first {
+    width: 180px;
+    height: 180px;
+    background-color: #bfdbfe;
+}
+
+.second {
+    width: 30%;
+    max-width: 300px;
+    min-height: 160px;
+    background-color: #bbf7d0;
+}
+
+.third {
+    width: 14em;
+    height: 25vh;
+    min-height: 150px;
+    background-color: #fde68a;
+}
+
+@media (max-width: 750px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .second {
+        width: 70%;
+    }
+}

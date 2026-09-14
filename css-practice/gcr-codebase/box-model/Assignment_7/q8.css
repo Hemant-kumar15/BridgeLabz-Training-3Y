@@ -1,0 +1,77 @@
+/* Box model layers */
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    width: 90%;
+}
+
+.demo {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.margin-layer {
+    background-color: #fde68a;
+    padding: 35px;
+}
+
+.border-layer {
+    background-color: #f87171;
+    padding: 12px;
+    border: 8px solid #991b1b;
+}
+
+.padding-layer {
+    background-color: #86efac;
+    padding: 30px;
+}
+
+.content-layer {
+    background-color: #93c5fd;
+    padding: 35px;
+    font-weight: bold;
+}
+
+.info {
+    max-width: 600px;
+    margin: auto;
+}
+
+.sizes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.default-box, .border-box {
+    width: 220px;
+    padding: 25px;
+    border: 8px solid #334155;
+    background-color: #e2e8f0;
+}
+
+.default-box {
+    box-sizing: content-box;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+@media (max-width: 650px) {
+    .sizes {
+        flex-direction: column;
+        align-items: center;
+    }
+}

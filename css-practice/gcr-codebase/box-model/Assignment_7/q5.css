@@ -1,0 +1,81 @@
+/* Element and attribute selectors */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #222;
+}
+
+header {
+    background-color: #334155;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+main {
+    max-width: 850px;
+    margin: auto;
+    padding: 30px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Attribute selector */
+input[type="text"] {
+    border: 2px solid blue;
+}
+
+/* Attribute selector using starting value */
+a[href^="https"] {
+    color: green;
+}
+
+/* Pseudo-class */
+a:hover {
+    color: red;
+}
+
+/* Pseudo-class */
+input:focus {
+    outline: 2px solid orange;
+}
+
+/* nth-child pseudo-class */
+li:nth-child(2) {
+    background-color: yellow;
+}
+
+/* Child combinator */
+.list-area > ul {
+    padding: 20px;
+}
+
+/* Descendant combinator */
+.list-area li {
+    margin: 5px;
+}
+
+/* Adjacent sibling combinator */
+h2 + p {
+    color: purple;
+}
+
+/* General sibling combinator */
+h2 ~ p {
+    line-height: 1.6;
+}
+
+/* Pseudo-elements */
+.list-area h2::before {
+    content: "★ ";
+}
+
+.list-area h2::after {
+    content: " ★";
+}

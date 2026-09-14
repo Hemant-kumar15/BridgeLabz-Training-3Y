@@ -1,0 +1,56 @@
+/* Cards with different shadow effects */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    text-shadow: 2px 2px 4px #999;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
+}
+
+.card {
+    width: 230px;
+    min-height: 180px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.one {
+    box-shadow: 4px 4px 10px #aaa;
+}
+
+.two {
+    box-shadow: 0 8px 18px #999;
+}
+
+.three {
+    box-shadow: 8px 8px 0 #bbb;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px #888;
+}
+
+@media (max-width: 750px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,70 @@
+/* Typography and text styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #222;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #1e293b;
+    color: white;
+    padding: 25px;
+}
+
+article {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+.intro {
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+.different-font {
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+}
+
+mark {
+    background-color: #fde68a;
+    color: #92400e;
+}
+
+strong {
+    color: #2563eb;
+}
+
+em {
+    color: #dc2626;
+}
+
+/* First letter and first line */
+article p:first-of-type::first-letter {
+    font-size: 42px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+article p:first-of-type::first-line {
+    font-weight: bold;
+}
