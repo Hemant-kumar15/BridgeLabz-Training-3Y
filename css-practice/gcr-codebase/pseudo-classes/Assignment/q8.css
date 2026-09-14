@@ -1,0 +1,43 @@
+/* Q8 - Box sizing comparison */
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    text-align: center;
+}
+main {
+    width: 900px;
+    max-width: 90%;
+}
+.boxes {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.box {
+    width: 350px;
+    padding: 30px;
+    border: 10px solid;
+    min-height: 220px;
+}
+.content-box {
+    box-sizing: content-box;
+    background-color: #fee2e2;
+    border-color: #dc2626;
+}
+.border-box {
+    box-sizing: border-box;
+    background-color: #dcfce7;
+    border-color: #16a34a;
+}
+@media (max-width: 700px) {
+    .boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box { width: 100%; }
+}

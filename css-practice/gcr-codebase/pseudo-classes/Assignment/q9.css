@@ -1,0 +1,57 @@
+/* Q9 - Combined effects */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    color: #222;
+}
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #1e293b;
+    color: white;
+}
+.effects {
+    display: flex;
+    gap: 25px;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+}
+.effect-box {
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #bbb;
+}
+.effect-box button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 7px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.effect-box button:hover {
+    background-color: #dc2626;
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px #aaa;
+}
+.effect-box button:active {
+    transform: scale(0.95);
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #1e293b;
+    color: white;
+}
+@media (max-width: 700px) {
+    .effects {
+        flex-direction: column;
+        margin: 20px;
+    }
+}

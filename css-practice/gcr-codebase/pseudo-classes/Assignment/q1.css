@@ -1,0 +1,60 @@
+/* Basic styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+}
+header {
+    text-align: center;
+    background-color: #243b55;
+    color: white;
+    padding: 25px;
+}
+.examples {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+.examples section {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+section a:hover {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+}
+input {
+    padding: 10px;
+    border: 2px solid gray;
+}
+input:focus {
+    border-color: blue;
+    outline: none;
+}
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+button:active {
+    background-color: red;
+}
+li:nth-child(2) {
+    background-color: yellow;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #243b55;
+    color: white;
+}
+@media (max-width: 800px) {
+    .examples {
+        flex-direction: column;
+    }
+}

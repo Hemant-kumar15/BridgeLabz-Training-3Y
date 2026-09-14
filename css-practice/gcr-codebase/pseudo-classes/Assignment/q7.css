@@ -1,0 +1,55 @@
+/* Q7 - UI components */
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #fce7f3);
+}
+.card {
+    width: 450px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px #aaa;
+}
+.card h1 { text-align: center; }
+.search {
+    display: flex;
+    gap: 10px;
+}
+input, select {
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+}
+input { flex: 1; }
+input:focus, select:focus {
+    outline: none;
+    border-color: blue;
+}
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 7px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 3px 7px #bbb;
+}
+button:hover { background-color: #1746a2; }
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin: 25px 0;
+}
+select {
+    width: 100%;
+    margin-top: 10px;
+}
+@media (max-width: 500px) {
+    .card { width: 80%; }
+    .search { flex-direction: column; }
+}

@@ -1,0 +1,38 @@
+/* Element selector */
+p { line-height: 1.6; }
+/* Class selector */
+.special { color: blue; font-weight: bold; }
+/* ID selector */
+#unique { background-color: #dcecff; }
+/* Attribute selector */
+a[href] { color: green; }
+/* Descendant selector */
+.combine div p { color: purple; }
+/* Child selector */
+.combine > div { padding: 15px; background-color: #eee; }
+/* Adjacent sibling selector */
+.combine div + p { color: red; }
+/* General sibling selector */
+.combine div ~ p { text-decoration: underline; }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+header, footer {
+    padding: 25px;
+    text-align: center;
+    background-color: #222;
+    color: white;
+}
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
