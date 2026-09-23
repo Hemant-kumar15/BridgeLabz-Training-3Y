@@ -1,0 +1,19 @@
+:root {
+    --bs-primary: #6f42c1;
+    --bs-primary-rgb: 111, 66, 193;
+    --bs-font-sans-serif: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--bs-font-sans-serif);
+    background: #faf8ff;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card-img-top {
+    height: 240px;
+    object-fit: cover;
+}

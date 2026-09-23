@@ -1,0 +1,14 @@
+body {
+    background: #f5f7fa;
+}
+
+.carousel img {
+    height: 520px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .carousel img {
+        height: 330px;
+    }
+}
