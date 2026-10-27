@@ -1,0 +1,11 @@
+function makeMultiplier(multiplier) {
+    return function(number) {
+        return number * multiplier;
+    };
+}
+
+const triple = makeMultiplier(3);
+console.log(triple(5));
+
+// The returned function remembers multiplier from its outer function.
+// This is called a closure.
