@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multi JQuery Widgets</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>var jq1 = jQuery.noConflict(true);</script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>var jq2 = jQuery.noConflict(true);</script>
+<script src="Multi_JQuery_Widgets.js" defer></script>
+</head>
+<body><main>
+<h1>Dashboard Widgets</h1><section id="carousel" class="widget"><h2>Carousel</h2><p class="slide">Welcome to the dashboard</p><p class="slide">Check your latest updates</p><p class="slide">Manage your activities</p><p class="slide">Stay connected</p><p class="slide">Have a productive day</p></section>
+<section class="widget" title="This widget shows account information"><h2>Account Widget</h2><p>Account information</p></section><section class="widget" title="This widget shows notifications"><h2>Notification Widget</h2><p>Notifications are available</p></section>
+<button id="notify">Show Notification</button><div id="modal"><div class="modalBox"><p>You have a new notification!</p><button id="close">Close</button></div></div>
+</main></body>
+</html>

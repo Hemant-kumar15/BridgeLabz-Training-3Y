@@ -1,0 +1,15 @@
+body { font-family: Arial, sans-serif; background: #f3f5f8; padding: 25px; }
+main { max-width: 850px; margin: auto; background: white; padding: 25px; border-radius: 8px; }
+button, input { padding: 9px 12px; margin: 6px; }
+.products { display: grid; grid-template-columns: repeat(auto-fit,minmax(140px,1fr)); gap: 12px; }
+.product, .faq, .department, .post, .widget { padding: 14px; margin: 10px 0; border: 1px solid #ccc; }
+.product { cursor: pointer; } .highlight { background: #fff0a8 !important; }
+.product[data-discount] { border: 2px solid green; }
+.selected { color: red; font-weight: bold; }
+.question, .departmentName { cursor: pointer; }
+.banner { background: #ffdf9e; padding: 20px; margin: 10px; }
+.contact { font-size: 13px; } .tag { background: #dcecff; padding: 5px; margin: 5px; }
+.featured { background: #fff1c9; } .activeWidget { border: 2px solid blue; }
+#modal { position: fixed; inset: 0; background: #0008; display: flex; align-items: center; justify-content: center; }
+.modalBox { background: white; padding: 25px; } .tooltip { display: block; color: blue; }
+label { display: block; margin-top: 10px; } form input { display: block; width: 90%; }
