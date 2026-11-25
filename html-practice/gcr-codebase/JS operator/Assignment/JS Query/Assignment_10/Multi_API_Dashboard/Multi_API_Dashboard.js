@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Load all three endpoints at the same time.
+    
     Promise.all([
         fetch("http://localhost:3004/users"),
         fetch("http://localhost:3004/orders"),
