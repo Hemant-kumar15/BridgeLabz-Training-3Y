@@ -1,0 +1,68 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Aman"
+        },
+        {
+            "id": 2,
+            "name": "Priya"
+        },
+        {
+            "id": 3,
+            "name": "Rahul"
+        },
+        {
+            "id": 4,
+            "name": "Neha"
+        },
+        {
+            "id": 5,
+            "name": "Karan"
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "item": "Book"
+        },
+        {
+            "id": 2,
+            "item": "Mouse"
+        },
+        {
+            "id": 3,
+            "item": "Keyboard"
+        },
+        {
+            "id": 4,
+            "item": "Watch"
+        },
+        {
+            "id": 5,
+            "item": "Speaker"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Book"
+        },
+        {
+            "id": 2,
+            "name": "Mouse"
+        },
+        {
+            "id": 3,
+            "name": "Keyboard"
+        },
+        {
+            "id": 4,
+            "name": "Watch"
+        },
+        {
+            "id": 5,
+            "name": "Speaker"
+        }
+    ]
+}
